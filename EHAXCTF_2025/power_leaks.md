@@ -1,8 +1,3 @@
-Sip! Karena ini buat ditaruh di portofolio GitHub, gue bantu rapikan *formatting*-nya supaya konsisten dengan dua *writeup* sebelumnya. Gue juga nambahin *placeholder* gambar ilustrasi gelombang (*waveform*) supaya pembaca di GitHub bisa lebih gampang kebayang bentuk datanya.
-
-Tinggal *copy-paste* teks di dalam kotak hitam ini ke file `README.md` lo:
-
-```markdown
 ## Writeup Challenge 3: Power Analysis Forensics
 
 ### Overview
