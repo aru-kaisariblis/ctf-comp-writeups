@@ -1,4 +1,3 @@
----
 ## Babyserial Forensic
 
 ### Overview
@@ -39,9 +38,10 @@ with open('flag.png', 'wb') as img_file:
 
 A pink-colored image file is successfully extracted and can be opened perfectly. The image clearly displays the flag text.
 
-Flag: EH4X{baby_U4rt}
+![alt text](flag.png)
 
-### Lessons Learned
+Flag: EH4X{baby_U4rt}
+Lessons Learned
 
 * Familiarization with hardware analysis tools like Saleae Logic 2.
 * The importance of recognizing file signatures or magic bytes, especially their Base64 encoded versions (iVBORw... for PNG).

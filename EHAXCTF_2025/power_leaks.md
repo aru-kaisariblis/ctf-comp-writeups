@@ -1,4 +1,4 @@
-## Writeup Challenge 3: Power Analysis Forensics
+## Power Analysis Forensics
 
 ### Overview
 This challenge provides a CSV file containing power consumption traces recorded during the execution of a secret-dependent computation. The goal is to recover a hidden secret using **power side-channel analysis**, then compute the final flag in the format: `EHAX{SHA256(secret)}`.

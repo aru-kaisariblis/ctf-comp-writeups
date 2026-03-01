@@ -1,4 +1,4 @@
-## Writeup Challenge 2: PAINTER
+## PAINTER Forensic
 
 ### Overview
 This challenge involves a packet capture file named `pref.pcap`. Based on the challenge name ("PAINTER") and the nature of the captured traffic—which is predominantly USB communication—this is a Network Forensics challenge focused on analyzing USB Human Interface Device (HID) traffic, specifically reconstructing mouse movements.
@@ -80,6 +80,8 @@ plt.show()
 
 Executing the Python script launches a `matplotlib` window revealing the hidden sketch. The reconstructed mouse trajectory clearly spells out `Wh4t_c0l0ur_15_th3_fl4g`.
 
+![Alt Text](painterflag.png)
+
 Following the challenge's flag format specification, the final flag is constructed.
 
 **Flag:** `EH4X{Wh4t_c0l0ur_15_th3_fl4g}`
@@ -89,3 +91,5 @@ Following the challenge's flag format specification, the final flag is construct
 * Deepened understanding of the USBHID packet structure and data payload formatting.
 * Mastered using `tshark` for automated, CLI-based packet extraction, bypassing manual GUI constraints.
 * Applied low-level data manipulation in Python, specifically handling Little Endian architecture and Two's Complement signed integers for forensic reconstruction.
+
+```
