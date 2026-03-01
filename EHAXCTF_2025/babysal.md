@@ -1,14 +1,5 @@
-# CTF Writeups 🚩
-
-A collection of CTF writeups focusing on Hardware and Network Forensics.
-
-## Table of Contents
-- [Challenge 1: Babyserial (Hardware/Forensics)](#writeup-challenge-1-babyserial)
-- [Challenge 2: PAINTER (Network Forensics)](#writeup-challenge-2-painter)
-
 ---
-
-## Writeup Challenge 1: Babyserial
+## Babyserial Forensic
 
 ### Overview
 This challenge provides a capture file from a logic analyzer named `babyserial.sal`. The challenge falls under the Hardware or Forensics category, where participants are required to analyze raw digital signals to extract hidden information.
@@ -49,7 +40,8 @@ with open('flag.png', 'wb') as img_file:
 A pink-colored image file is successfully extracted and can be opened perfectly. The image clearly displays the flag text.
 
 Flag: EH4X{baby_U4rt}
-Lessons Learned
+
+### Lessons Learned
 
 * Familiarization with hardware analysis tools like Saleae Logic 2.
 * The importance of recognizing file signatures or magic bytes, especially their Base64 encoded versions (iVBORw... for PNG).
