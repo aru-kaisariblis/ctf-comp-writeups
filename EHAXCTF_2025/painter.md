@@ -1,8 +1,3 @@
-Berikut adalah versi tulis ulang ( *rewrite* ) untuk *writeup* **PAINTER** dalam bahasa Inggris. Di versi ini, penjelasannya dibuat lebih mendalam secara teknis—khususnya pada bagian manipulasi *byte* dan *Little Endian*—yang akan sangat cocok untuk portofolio mahasiswa Teknik Informatika di GitHub.
-
-Lo tinggal *copy-paste* kode di bawah ini:
-
-```markdown
 ## Writeup Challenge 2: PAINTER
 
 ### Overview
@@ -94,11 +89,3 @@ Following the challenge's flag format specification, the final flag is construct
 * Deepened understanding of the USBHID packet structure and data payload formatting.
 * Mastered using `tshark` for automated, CLI-based packet extraction, bypassing manual GUI constraints.
 * Applied low-level data manipulation in Python, specifically handling Little Endian architecture and Two's Complement signed integers for forensic reconstruction.
-
-```
-
-Versi ini terasa lebih rapi dan menggunakan istilah-istilah yang lebih akademik (*Two's complement*, *Little Endian architecture*, *Data visualization*). 
-
-Apakah ada bagian tertentu dari teks di atas yang mau diubah lagi, atau mau lanjut bahas *challenge* yang lain?
-
-```
