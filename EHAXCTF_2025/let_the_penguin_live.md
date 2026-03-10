@@ -45,7 +45,7 @@ The resulting isolated audio track is analyzed by clicking the track name dropdo
 
 The phase cancellation successfully isolates the hidden signal. Looking at the Spectrogram view, the frequencies visually form a clear, readable text in the higher frequency ranges.
 
-![Alt Text](painterfalg.png)
+![Alt Text](ltpl_falg.png)
 
 
 **Flag:** `EH4X{0n3_tr4ck_m1nd_tw0_tr4ck_f1l3s}`
